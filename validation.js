@@ -38,7 +38,7 @@ function Validation(){
         var passwordkonfirmi = document.querySelector('#password_k').value;
         
         if(emri == "" && mbiemri ==""&& email1 == "" && emailkonfirmimi == "" && password == "" && passwordkonfirmi == "" ){
-            alert("Ju lutem plotesoni fushat");
+            alert("Ju lutem plotesoni fushat!");
         }        
         else if(emri == ""){
             alert("Ju nuk keni shenuar emrin")
